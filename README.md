@@ -1,6 +1,22 @@
-# Histopathological Cancer Detection
+# Breast Cancer Histopathological Detection
 
-This repository contains the code for a deep learning project focused on the binary classification of cancer in histopathological images. The goal is to build and compare the performance of two different Convolutional Neural Network (CNN) models.
+This repository contains the code for a deep learning project focused on the binary classification of breast cancer in histopathological images. The goal is to build and compare the performance of two different Convolutional Neural Network (CNN) models.
+
+## Dataset
+
+The dataset used in this project can be found at the following link: [Breast Histopathology Images Dataset on Kaggle](https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images)
+
+The dataset is provided as a `cancer_detection.zip` file. Once unzipped, it contains the following folder structure:
+
+```
+cancer_detection/
+├── train/
+│   ├── 0/  (contains images with no cancer)
+│   └── 1/  (contains images with cancer)
+└── test/
+    ├── 0/  (contains images with no cancer)
+    └── 1/  (contains images with cancer)
+```
 
 ## Models Implemented
 
@@ -19,18 +35,6 @@ In the **second phase**, the training dataset was expanded significantly. This p
 Ultimately, the Transfer Learning approach proved to be the more robust and effective solution for this task.
 
 ## Project Structure
-
-The dataset is provided as a `cancer_detection.zip` file. Once unzipped, it contains the following folder structure:
-
-```
-cancer_detection/
-├── train/
-│   ├── 0/  (contains images with no cancer)
-│   └── 1/  (contains images with cancer)
-└── test/
-    ├── 0/  (contains images with no cancer)
-    └── 1/  (contains images with cancer)
-```
 
 The `histopathological-cancer-detection.ipynb` file contains the Jupyter notebook or Colab file with the complete code for data preprocessing, model building, training, and evaluation.
 
