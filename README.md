@@ -32,7 +32,7 @@ cancer_detection/
     └── 1/  (contains images with cancer)
 ```
 
-The `notebooks/` directory contains the Jupyter notebook or Colab file with the complete code for data preprocessing, model building, training, and evaluation.
+The `histopathological-cancer-detection.ipynb` file contains the Jupyter notebook or Colab file with the complete code for data preprocessing, model building, training, and evaluation.
 
 ## Libraries Used
 
